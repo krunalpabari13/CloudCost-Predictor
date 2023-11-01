@@ -504,7 +504,41 @@ function App() {
     setAllItems(values);
   };
 
-  console.log(allItems);
+  
+  const handleSubmit = async () => {
+    try {
+      const response = await fetch('endpoint-urlllllllll', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(allItems),
+      });
+
+      if (response.ok) {
+        console.log('Form data submitted successfully');
+        setAllItems([
+          {
+            paymentType: "Prepaid",
+            serviceName: "",
+            numberOfCPU: "",
+            memorySize: "",
+            usageTime: "",
+            usageType: "Storage",
+            database: "",
+            engine: "",
+            operatingSystem: "",
+          },
+        ]);
+      } else {
+        console.error('Failed to submit form data');
+      }
+    } catch (error) {
+      console.error('Network error:', error);
+    }
+  };
+
+//  console.log(allItems);
 
   return (
     <Container style={containerStyle}>
