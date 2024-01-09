@@ -37,6 +37,7 @@ import BlankLayout from 'src/@core/layouts/BlankLayout'
 
 // ** Demo Imports
 import FooterIllustrationsV1 from 'src/views/pages/auth/FooterIllustration'
+import { DockRight } from 'mdi-material-ui'
 
 // ** Styled Components
 const Card = styled(MuiCard)(({ theme }) => ({
@@ -79,6 +80,40 @@ const RegisterPage = () => {
   const handleMouseDownPassword = event => {
     event.preventDefault()
   }
+
+  const handleSignUp = (e) => {
+    e.preventDefault();
+    const values = {
+      username: document.getElementById('username').value,
+      email: document.getElementById('email').value,
+      password: document.getElementById('auth-register-password').value,
+    };
+  
+    const data = {
+      username: values.username,
+      email: values.email,
+      password: values.password,
+    };
+  
+    fetch('http://localhost:8000/sign', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => {
+        if (response.ok) {
+          console.log('Registration successful');
+        } else {
+          console.error('Registration failed');
+        }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  };
+  
 
   return (
     <Box className='content-center'>
@@ -163,9 +198,10 @@ const RegisterPage = () => {
             </Typography>
             <Typography variant='body2'>Make your app management easy and fun!</Typography>
           </Box>
-          <form noValidate autoComplete='off' onSubmit={e => e.preventDefault()}>
+          {/* <form noValidate autoComplete='off' onSubmit={e => e.preventDefault()}> */}
+          <form noValidate autoComplete='off' onSubmit={handleSignUp}>
             <TextField autoFocus fullWidth id='username' label='Username' sx={{ marginBottom: 4 }} />
-            <TextField fullWidth type='email' label='Email' sx={{ marginBottom: 4 }} />
+            <TextField fullWidth type='email' id='email' label='Email' sx={{ marginBottom: 4 }} />
             <FormControl fullWidth>
               <InputLabel htmlFor='auth-register-password'>Password</InputLabel>
               <OutlinedInput
@@ -199,7 +235,7 @@ const RegisterPage = () => {
                 </Fragment>
               }
             />
-            <Button fullWidth size='large' type='submit' variant='contained' sx={{ marginBottom: 7 }}>
+            <Button fullWidth size='large' type='submit' variant='contained' sx={{ marginBottom: 7 }} onClick={handleSignUp}>
               Sign up
             </Button>
             <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>

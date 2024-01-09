@@ -397,7 +397,7 @@
 
 
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 
 const containerStyle = {
@@ -463,14 +463,14 @@ function App() {
   const [allItems, setAllItems] = useState([
     {
       paymentType: "Prepaid",
-      serviceName: "",
-      numberOfCPU: "",
-      memorySize: "",
-      usageTime: "",
-      usageType: "Storage",
+      // source: "",
+      cpu: "",
+      ram: "",
+      hours: "",
+      source: "Storage",
       database: "",
       engine: "",
-      operatingSystem: "",
+      os: "",
     },
   ]);
 
@@ -478,14 +478,14 @@ function App() {
     const values = [...allItems];
     values.push({
       paymentType: "Prepaid",
-      serviceName: "",
-      numberOfCPU: "",
-      memorySize: "",
-      usageTime: "",
-      usageType: "Storage",
+      // source: "",
+      cpu: "",
+      ram: "",
+      hours: "",
+      source: "Storage",
       database: "",
       engine: "",
-      operatingSystem: "",
+      os: "",
     });
     setAllItems(values);
   };
@@ -499,44 +499,45 @@ function App() {
   const handleInputChange = (index, event) => {
     const values = [...allItems];
     const updatedValue = event.target.name;
+    console.log(event.target.value)
     values[index][updatedValue] = event.target.value;
 
     setAllItems(values);
   };
-
   
   const handleSubmit = async () => {
-    try {
-      const response = await fetch('endpoint-urlllllllll', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(allItems),
-      });
-
-      if (response.ok) {
-        console.log('Form data submitted successfully');
-        setAllItems([
-          {
-            paymentType: "Prepaid",
-            serviceName: "",
-            numberOfCPU: "",
-            memorySize: "",
-            usageTime: "",
-            usageType: "Storage",
-            database: "",
-            engine: "",
-            operatingSystem: "",
-          },
-        ]);
-      } else {
-        console.error('Failed to submit form data');
-      }
-    } catch (error) {
-      console.error('Network error:', error);
-    }
-  };
+        try {
+          console.log("data")
+          const response = await fetch('http://localhost:8000/selected', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(allItems),
+          });
+    
+          if (response.ok) {
+            console.log('Form data submitted successfully');
+            setAllItems([
+              {
+                paymentType: "Prepaid",
+                // source: "",
+                cpu: "",
+                ram: "",
+                hours: "",
+                source: "Storage",
+                database: "",
+                engine: "",
+                os: "",
+              },
+            ]);
+          } else {
+            console.error('Failed to submit form data');
+          }
+        } catch (error) {
+          console.error('Network error:', error);
+        }
+      };
 
 //  console.log(allItems);
 
@@ -600,32 +601,34 @@ function App() {
                           >
                             <option value="Storage">Storage</option>
                             <option value="Virtual Machine">Virtual Machine</option>
+                            <option value="LoadBalancer">LoadBalancer</option>
+                            <option value="AWSLambda">AWSLambda</option>
+                            
+                            
+
                           </Form.Control>
                         </Form.Group>
                         {field.usageType === "Storage" && (
                           <>
-                            <Form.Group style={formGroupStyle}>
+                           <Form.Group style={formGroupStyle}>
                               <Form.Label style={labelStyle}>Database</Form.Label>
                               <Form.Control
-                                type="text"
+                                // type="text"
+                               as="select"
                                 name="database"
                                 placeholder="Enter Database"
                                 value={field.database}
                                 onChange={(event) => handleInputChange(index, event)}
                                 style={inputStyle}
-                              />
+                              >
+                                 <option value="">Select Database Type</option>
+    <option value="MySQL">MySQL</option>
+    <option value="PostgreSQL">PostgreSQL</option>
+    <option value="MongoDB">MongoDB</option>
+                               </Form.Control>
                             </Form.Group>
-                            <Form.Group style={formGroupStyle}>
-                              <Form.Label style={labelStyle}>Engine</Form.Label>
-                              <Form.Control
-                                type="text"
-                                name="engine"
-                                placeholder="Enter Engine"
-                                value={field.engine}
-                                onChange={(event) => handleInputChange(index, event)}
-                                style={inputStyle}
-                              />
-                            </Form.Group>
+
+                            
                           </>
                         )}
                         {field.usageType === "Virtual Machine" && (
@@ -633,17 +636,20 @@ function App() {
                             <Form.Group style={formGroupStyle}>
                               <Form.Label style={labelStyle}>Operating System</Form.Label>
                               <Form.Control
-                                type="text"
-                                name="operatingSystem"
+                                as="select"
+                                name="os"
                                 placeholder="Enter Operating System"
                                 value={field.operatingSystem}
                                 onChange={(event) => handleInputChange(index, event)}
                                 style={inputStyle}
-                              />
+                              >
+                               <option value="Windows">Windows</option>
+    <option value="MySQL">Linux</option>
+    </Form.Control>
                             </Form.Group>
                           </>
                         )}
-                        <Form.Group style={formGroupStyle}>
+                        {/* <Form.Group style={formGroupStyle}>
                           <Form.Label style={labelStyle}>Number of CPU</Form.Label>
                           <Form.Control
                             type="text"
@@ -653,12 +659,29 @@ function App() {
                             onChange={(event) => handleInputChange(index, event)}
                             style={inputStyle}
                           />
-                        </Form.Group>
+                        </Form.Group> */}
+                        <Form.Group>
+  <Form.Label style={labelStyle}>Number of CPU</Form.Label>
+  <Form.Select
+    name="cpu"
+    value={field.numberOfCPU}
+    onChange={(event) => handleInputChange(index, event)}
+    style={inputStyle}
+  >
+    <option value="1">2 CPUs</option>
+    <option value="2">4 CPUs</option>
+    <option value="4">8 CPUs</option>
+    <option value="8">12 CPUs</option>
+    <option value="8">16 CPUs</option>
+   
+    {/* Add more options as needed */}
+  </Form.Select>
+</Form.Group>
                         <Form.Group style={formGroupStyle}>
                           <Form.Label style={labelStyle}>Memory Size</Form.Label>
                           <Form.Control
                             type="text"
-                            name="memorySize"
+                            name="ram"
                             placeholder="Enter Memory Size"
                             value={field.memorySize}
                             onChange={(event) => handleInputChange(index, event)}
@@ -669,7 +692,7 @@ function App() {
                           <Form.Label style={labelStyle}>Usage Time</Form.Label>
                           <Form.Control
                             type="text"
-                            name="usageTime"
+                            name="hours"
                             placeholder="Enter Usage Time"
                             value={field.usageTime}
                             onChange={(event) => handleInputChange(index, event)}

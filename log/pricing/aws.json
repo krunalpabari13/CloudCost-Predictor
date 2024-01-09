@@ -1,0 +1,1626 @@
+{
+    "VirtualMachine": [
+        {
+            "region": "East US",
+            "operatingSystem": "Windows",
+            "instanceType": "t2.micro",
+            "vCPUs": 1,
+            "memory": "1GB",
+            "hourlyPrice": 0.0125
+        },
+        {
+            "region": "East US",
+            "operatingSystem": "Windows",
+            "instanceType": "t2.small",
+            "vCPUs": 1,
+            "memory": "2GB",
+            "hourlyPrice": 0.025
+        },
+        {
+            "region": "East US",
+            "operatingSystem": "Windows",
+            "instanceType": "t2.medium",
+            "vCPUs": 2,
+            "memory": "4GB",
+            "hourlyPrice": 0.05
+        },
+        {
+            "region": "East US",
+            "operatingSystem": "Windows",
+            "instanceType": "t2.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "West US",
+            "operatingSystem": "Windows",
+            "instanceType": "m5.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.096
+        },
+        {
+            "region": "East US",
+            "operatingSystem": "Linux",
+            "instanceType": "t3.micro",
+            "vCPUs": 2,
+            "memory": "1GB",
+            "hourlyPrice": 0.012
+        },
+        {
+            "region": "West US",
+            "operatingSystem": "Linux",
+            "instanceType": "m5.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "EU (Ireland)",
+            "operatingSystem": "Linux",
+            "instanceType": "c5.xlarge",
+            "vCPUs": 4,
+            "memory": "8GB",
+            "hourlyPrice": 0.17
+        },
+        {
+            "region": "East Asia",
+            "operatingSystem": "Linux",
+            "instanceType": "r5.large",
+            "vCPUs": 2,
+            "memory": "16GB",
+            "hourlyPrice": 0.15
+        },
+        {
+            "region": "South America",
+            "operatingSystem": "Linux",
+            "instanceType": "m4.xlarge",
+            "vCPUs": 4,
+            "memory": "16GB",
+            "hourlyPrice": 0.19
+        },
+        {
+            "region": "US East",
+            "operatingSystem": "Linux",
+            "instanceType": "m5.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.096
+        },
+        {
+            "region": "US West",
+            "operatingSystem": "Linux",
+            "instanceType": "c5.large",
+            "vCPUs": 2,
+            "memory": "4GB",
+            "hourlyPrice": 0.085
+        },
+        {
+            "region": "EU Central",
+            "operatingSystem": "Linux",
+            "instanceType": "r4.large",
+            "vCPUs": 2,
+            "memory": "15GB",
+            "hourlyPrice": 0.12
+        },
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "t2.nano",
+            "vCPUs": 1,
+            "memory": "0.5GB",
+            "hourlyPrice": 0.005
+        },
+        {
+            "region": "Canada",
+            "operatingSystem": "Linux",
+            "instanceType": "m3.medium",
+            "vCPUs": 1,
+            "memory": "3.75GB",
+            "hourlyPrice": 0.07
+        },
+        {
+            "region": "US West",
+            "operatingSystem": "Linux",
+            "instanceType": "t3.nano",
+            "vCPUs": 2,
+            "memory": "0.5GB",
+            "hourlyPrice": 0.005
+        },
+        {
+            "region": "EU West",
+            "operatingSystem": "Linux",
+            "instanceType": "m5.xlarge",
+            "vCPUs": 4,
+            "memory": "16GB",
+            "hourlyPrice": 0.192
+        },
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "c4.large",
+            "vCPUs": 2,
+            "memory": "3.75GB",
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "Canada",
+            "operatingSystem": "Linux",
+            "instanceType": "r5.xlarge",
+            "vCPUs": 4,
+            "memory": "32GB",
+            "hourlyPrice": 0.25
+        },
+        {
+            "region": "US East",
+            "operatingSystem": "Linux",
+            "instanceType": "t2.small",
+            "vCPUs": 1,
+            "memory": "2GB",
+            "hourlyPrice": 0.034
+        },
+        {
+            "region": "EU West",
+            "operatingSystem": "Linux",
+            "instanceType": "c5.large",
+            "vCPUs": 2,
+            "memory": "4GB",
+            "hourlyPrice": 0.09
+        },
+        {
+            "region": "US East",
+            "operatingSystem": "Linux",
+            "instanceType": "t2.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.045
+        },
+        {
+            "region": "EU Central",
+            "operatingSystem": "Linux",
+            "instanceType": "m4.xlarge",
+            "vCPUs": 4,
+            "memory": "16GB",
+            "hourlyPrice": 0.13
+        },
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "r4.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.11
+        },
+        {
+            "region": "Canada",
+            "operatingSystem": "Linux",
+            "instanceType": "t3.small",
+            "vCPUs": 2,
+            "memory": "2GB",
+            "hourlyPrice": 0.025
+        },
+        {
+            "region": "US West",
+            "operatingSystem": "Linux",
+            "instanceType": "t2.nano",
+            "vCPUs": 1,
+            "memory": "0.5GB",
+            "hourlyPrice": 0.005
+        },
+        {
+            "region": "EU West",
+            "operatingSystem": "Linux",
+            "instanceType": "m5.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.096
+        },
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "c4.large",
+            "vCPUs": 2,
+            "memory": "3.75GB",
+            "hourlyPrice": 0.085
+        }, {
+            "region": "Canada",
+            "operatingSystem": "Linux",
+            "instanceType": "r5.xlarge",
+            "vCPUs": 4,
+            "memory": "32GB",
+            "hourlyPrice": 0.25
+        },
+        {
+            "region": "US East",
+            "operatingSystem": "Linux",
+            "instanceType": "t2.small",
+            "vCPUs": 1,
+            "memory": "2GB",
+            "hourlyPrice": 0.034
+        },
+        {
+            "region": "EU Central",
+            "operatingSystem": "Linux",
+            "instanceType": "c5.xlarge",
+            "vCPUs": 4,
+            "memory": "8GB",
+            "hourlyPrice": 0.17
+        }, {
+            "region": "US West",
+            "operatingSystem": "Linux",
+            "instanceType": "m4.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.11
+        },
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "t3.micro",
+            "vCPUs": 2,
+            "memory": "1GB",
+            "hourlyPrice": 0.015
+        },
+        {
+            "region": "Canada",
+            "operatingSystem": "Linux",
+            "instanceType": "m3.medium",
+            "vCPUs": 1,
+            "memory": "3.75GB",
+            "hourlyPrice": 0.07
+        }, {
+            "region": "EU West",
+            "operatingSystem": "Linux",
+            "instanceType": "c4.xlarge",
+            "vCPUs": 4,
+            "memory": "7.5GB",
+            "hourlyPrice": 0.13
+        },
+        {
+            "region": "US East",
+            "operatingSystem": "Linux",
+            "instanceType": "t3.small",
+            "vCPUs": 2,
+            "memory": "2GB",
+            "hourlyPrice": 0.03
+        },
+        {
+            "region": "EU Central",
+            "operatingSystem": "Linux",
+            "instanceType": "m5.xlarge",
+            "vCPUs": 4,
+            "memory": "16GB",
+            "hourlyPrice": 0.192
+        },{
+            "region": "US West",
+            "operatingSystem": "Linux",
+            "instanceType": "c5.large",
+            "vCPUs": 2,
+            "memory": "4GB",
+            "hourlyPrice": 0.09
+        },
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "r4.xlarge",
+            "vCPUs": 4,
+            "memory": "30.5GB",
+            "hourlyPrice": 0.24
+        },
+        {
+            "region": "Canada",
+            "operatingSystem": "Linux",
+            "instanceType": "t2.micro",
+            "vCPUs": 1,
+            "memory": "1GB",
+            "hourlyPrice": 0.012
+        }, {
+            "region": "US East",
+            "operatingSystem": "Linux",
+            "instanceType": "m4.xlarge",
+            "vCPUs": 4,
+            "memory": "16GB",
+            "hourlyPrice": 0.16
+        },
+        {
+            "region": "EU West",
+            "operatingSystem": "Linux",
+            "instanceType": "t2.medium",
+            "vCPUs": 2,
+            "memory": "4GB",
+            "hourlyPrice": 0.048
+        },
+        {
+            "region": "EU Central",
+            "operatingSystem": "Linux",
+            "instanceType": "c5.2xlarge",
+            "vCPUs": 8,
+            "memory": "16GB",
+            "hourlyPrice": 0.34
+        }, 
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "m3.large",
+            "vCPUs": 2,
+            "memory": "7.5GB",
+            "hourlyPrice": 0.11
+        },
+        {
+            "region": "EU West",
+            "operatingSystem": "Linux",
+            "instanceType": "m5.2xlarge",
+            "vCPUs": 8,
+            "memory": "32GB",
+            "hourlyPrice": 0.384
+        },
+        {
+            "region": "US East",
+            "operatingSystem": "Linux",
+            "instanceType": "c4.2xlarge",
+            "vCPUs": 8,
+            "memory": "15GB",
+            "hourlyPrice": 0.34
+        },
+        {
+            "region": "EU Central",
+            "operatingSystem": "Linux",
+            "instanceType": "r5.4xlarge",
+            "vCPUs": 16,
+            "memory": "128GB",
+            "hourlyPrice": 0.96
+        },
+        {
+            "region": "Asia Pacific",
+            "operatingSystem": "Linux",
+            "instanceType": "t3.large",
+            "vCPUs": 2,
+            "memory": "8GB",
+            "hourlyPrice": 0.09
+        },
+        {
+            "region": "Canada",
+            "operatingSystem": "Linux",
+            "instanceType": "m4.2xlarge",
+            "vCPUs": 8,
+            "memory": "32GB",
+            "hourlyPrice": 0.32
+        },
+        {
+            "region": "US West",
+            "operatingSystem": "Linux",
+            "instanceType": "c5.4xlarge",
+            "vCPUs": 16,
+            "memory": "32GB",
+            "hourlyPrice": 0.68
+        },
+        {     "region": "EU West",
+        "operatingSystem": "Linux",
+        "instanceType": "t2.large",
+        "vCPUs": 2,
+        "memory": "8GB",
+        "hourlyPrice": 0.096
+    },
+    {
+        "region": "US East",
+        "operatingSystem": "Linux",
+        "instanceType": "m5.4xlarge",
+        "vCPUs": 16,
+        "memory": "64GB",
+        "hourlyPrice": 0.384
+    },
+    {
+        "region": "EU Central",
+        "operatingSystem": "Linux",
+        "instanceType": "c4.4xlarge",
+        "vCPUs": 16,
+        "memory": "30GB",
+        "hourlyPrice": 0.68
+    },
+    {
+        "region": "Asia Pacific",
+        "operatingSystem": "Linux",
+        "instanceType": "r4.4xlarge",
+        "vCPUs": 16,
+        "memory": "122GB",
+        "hourlyPrice": 0.92
+    },
+    {
+        "region": "Canada",
+        "operatingSystem": "Linux",
+        "instanceType": "t3.xlarge",
+        "vCPUs": 4,
+        "memory": "16GB",
+        "hourlyPrice": 0.18
+    },
+    {
+        "region": "US West",
+        "operatingSystem": "Linux",
+        "instanceType": "m5.12xlarge",
+        "vCPUs": 48,
+        "memory": "192GB",
+        "hourlyPrice": 1.536
+    },
+    {
+        "region": "EU West",
+        "operatingSystem": "Linux",
+        "instanceType": "c5.9xlarge",
+        "vCPUs": 36,
+        "memory": "72GB",
+        "hourlyPrice": 1.02
+    },
+    {
+        "region": "US East",
+        "operatingSystem": "Linux",
+        "instanceType": "r5.12xlarge",
+        "vCPUs": 48,
+        "memory": "384GB",
+        "hourlyPrice": 2.88
+    },
+    {
+        "region": "Asia Pacific",
+        "operatingSystem": "Linux",
+        "instanceType": "t3.2xlarge",
+        "vCPUs": 8,
+        "memory": "32GB",
+        "hourlyPrice": 0.36
+    }, {
+        "region": "Canada",
+        "operatingSystem": "Linux",
+        "instanceType": "m4.4xlarge",
+        "vCPUs": 16,
+        "memory": "64GB",
+        "hourlyPrice": 0.64
+    },
+    {
+        "region": "US West",
+        "operatingSystem": "Linux",
+        "instanceType": "c5.12xlarge",
+        "vCPUs": 48,
+        "memory": "96GB",
+        "hourlyPrice": 1.36
+    },
+    {
+        "region": "EU West",
+        "operatingSystem": "Linux",
+        "instanceType": "t2.xlarge",
+        "vCPUs": 4,
+        "memory": "16GB",
+        "hourlyPrice": 0.192
+    },{
+        "region": "US East",
+        "operatingSystem": "Linux",
+        "instanceType": "m5.24xlarge",
+        "vCPUs": 96,
+        "memory": "384GB",
+        "hourlyPrice": 3.072
+    },
+    {
+        "region": "EU Central",
+        "operatingSystem": "Linux",
+        "instanceType": "c4.8xlarge",
+        "vCPUs": 36,
+        "memory": "60GB",
+        "hourlyPrice": 1.36
+    }
+      
+    ],
+    "database": [
+        {
+            "region": "US East",
+            "readCapacityUnits": 5,
+            "writeCapacityUnits": 5,
+            "hourlyPrice": 0.05
+        },
+        {
+            "region": "US West",
+            "readCapacityUnits": 10,
+            "writeCapacityUnits": 10,
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "EU West",
+            "readCapacityUnits": 20,
+            "writeCapacityUnits": 20,
+            "hourlyPrice": 0.2
+        },
+        {
+            "region": "Asia Pacific",
+            "readCapacityUnits": 15,
+            "writeCapacityUnits": 15,
+            "hourlyPrice": 0.15
+        },
+        {
+            "region": "Canada",
+            "readCapacityUnits": 8,
+            "writeCapacityUnits": 8,
+            "hourlyPrice": 0.08
+        },
+        {
+            "region": "US East",
+            "readCapacityUnits": 15,
+            "writeCapacityUnits": 15,
+            "hourlyPrice": 0.15
+        },
+        {
+            "region": "US West",
+            "readCapacityUnits": 30,
+            "writeCapacityUnits": 30,
+            "hourlyPrice": 0.3
+        },
+        {
+            "region": "EU West",
+            "readCapacityUnits": 25,
+            "writeCapacityUnits": 25,
+            "hourlyPrice": 0.25
+        },{
+            "region": "Asia Pacific",
+            "readCapacityUnits": 10,
+            "writeCapacityUnits": 10,
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "Canada",
+            "readCapacityUnits": 5,
+            "writeCapacityUnits": 5,
+            "hourlyPrice": 0.05
+        },
+        {
+            "region": "US East",
+            "readCapacityUnits": 20,
+            "writeCapacityUnits": 20,
+            "hourlyPrice": 0.2
+        },
+        {
+            "region": "US West",
+            "readCapacityUnits": 40,
+            "writeCapacityUnits": 40,
+            "hourlyPrice": 0.4
+        },{
+            "region": "EU West",
+            "readCapacityUnits": 35,
+            "writeCapacityUnits": 35,
+            "hourlyPrice": 0.35
+        },
+        {
+            "region": "Asia Pacific",
+            "readCapacityUnits": 12,
+            "writeCapacityUnits": 12,
+            "hourlyPrice": 0.12
+        },
+        {
+            "region": "Canada",
+            "readCapacityUnits": 6,
+            "writeCapacityUnits": 6,
+            "hourlyPrice": 0.06
+        },
+        {
+            "region": "US East",
+            "readCapacityUnits": 25,
+            "writeCapacityUnits": 25,
+            "hourlyPrice": 0.25
+        },        {
+            "region": "US West",
+            "readCapacityUnits": 50,
+            "writeCapacityUnits": 50,
+            "hourlyPrice": 0.5
+        },
+        {
+            "region": "EU West",
+            "readCapacityUnits": 45,
+            "writeCapacityUnits": 45,
+            "hourlyPrice": 0.45
+        },
+        {
+            "region": "Asia Pacific",
+            "readCapacityUnits": 14,
+            "writeCapacityUnits": 14,
+            "hourlyPrice": 0.14
+        },
+        {
+            "region": "Canada",
+            "readCapacityUnits": 7,
+            "writeCapacityUnits": 7,
+            "hourlyPrice": 0.07
+        },
+        {
+            "region": "US East",
+            "readCapacityUnits": 8,
+            "writeCapacityUnits": 8,
+            "hourlyPrice": 0.08
+        },
+        {
+            "region": "US West",
+            "readCapacityUnits": 12,
+            "writeCapacityUnits": 12,
+            "hourlyPrice": 0.12
+        },
+        {
+            "region": "EU West",
+            "readCapacityUnits": 16,
+            "writeCapacityUnits": 16,
+            "hourlyPrice": 0.16
+        },
+        {
+            "region": "Asia Pacific",
+            "readCapacityUnits": 10,
+            "writeCapacityUnits": 10,
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "Canada",
+            "readCapacityUnits": 6,
+            "writeCapacityUnits": 6,
+            "hourlyPrice": 0.06
+        },
+        {
+            "region": "US East",
+            "readCapacityUnits": 14,
+            "writeCapacityUnits": 14,
+            "hourlyPrice": 0.14
+        },
+        {
+            "region": "US West",
+            "readCapacityUnits": 20,
+            "writeCapacityUnits": 20,
+            "hourlyPrice": 0.2
+        }, {
+            "region": "EU West",
+            "readCapacityUnits": 22,
+            "writeCapacityUnits": 22,
+            "hourlyPrice": 0.22
+        },
+        {
+            "region": "Asia Pacific",
+            "readCapacityUnits": 12,
+            "writeCapacityUnits": 12,
+            "hourlyPrice": 0.12
+        },
+        {
+            "region": "Canada",
+            "readCapacityUnits": 8,
+            "writeCapacityUnits": 8,
+            "hourlyPrice": 0.08
+        },
+        {
+            "region": "US East",
+            "readCapacityUnits": 18,
+            "writeCapacityUnits": 18,
+            "hourlyPrice": 0.18
+        },{
+            "region": "US West",
+            "readCapacityUnits": 24,
+            "writeCapacityUnits": 24,
+            "hourlyPrice": 0.24
+        },
+        {
+            "region": "EU West",
+            "readCapacityUnits": 28,
+            "writeCapacityUnits": 28,
+            "hourlyPrice": 0.28
+        },
+        {
+            "region": "Asia Pacific",
+            "readCapacityUnits": 16,
+            "writeCapacityUnits": 16,
+            "hourlyPrice": 0.16
+        },
+        {
+            "region": "Canada",
+            "readCapacityUnits": 10,
+            "writeCapacityUnits": 10,
+            "hourlyPrice": 0.1
+        }
+
+    ],
+
+    "AWSLambda": [
+        {
+            "region": "US East",
+            "memorySize": 128,
+            "executionTime": 500,
+            "pricePerInvocation": 0.0000002
+        },
+        {
+            "region": "US West",
+            "memorySize": 256,
+            "executionTime": 1000,
+            "pricePerInvocation": 0.0000004
+        },
+        {
+            "region": "EU West",
+            "memorySize": 512,
+            "executionTime": 1500,
+            "pricePerInvocation": 0.0000006
+        },
+        {
+            "region": "Asia Pacific",
+            "memorySize": 1024,
+            "executionTime": 2000,
+            "pricePerInvocation": 0.0000008
+        },
+        {
+            "region": "Canada",
+            "memorySize": 2048,
+            "executionTime": 2500,
+            "pricePerInvocation": 0.0000010
+        },
+        {
+            "region": "US East",
+            "memorySize": 128,
+            "executionTime": 1000,
+            "pricePerInvocation": 0.0000004
+        },
+        {
+            "region": "US West",
+            "memorySize": 256,
+            "executionTime": 1500,
+            "pricePerInvocation": 0.0000006
+        },
+        {
+            "region": "EU West",
+            "memorySize": 512,
+            "executionTime": 2000,
+            "pricePerInvocation": 0.0000008
+        },{
+            "region": "Asia Pacific",
+            "memorySize": 1024,
+            "executionTime": 2500,
+            "pricePerInvocation": 0.0000010
+        },
+        {
+            "region": "Canada",
+            "memorySize": 2048,
+            "executionTime": 3000,
+            "pricePerInvocation": 0.0000012
+        },
+        {
+            "region": "US East",
+            "memorySize": 256,
+            "executionTime": 1200,
+            "pricePerInvocation": 0.0000005
+        }, {
+            "region": "US West",
+            "memorySize": 512,
+            "executionTime": 1800,
+            "pricePerInvocation": 0.0000007
+        },
+        {
+            "region": "EU West",
+            "memorySize": 1024,
+            "executionTime": 2400,
+            "pricePerInvocation": 0.0000009
+        },
+        {
+            "region": "Asia Pacific",
+            "memorySize": 2048,
+            "executionTime": 3000,
+            "pricePerInvocation": 0.0000011
+        },
+        {
+            "region": "Canada",
+            "memorySize": 4096,
+            "executionTime": 3600,
+            "pricePerInvocation": 0.0000013
+        }, {
+            "region": "US East",
+            "memorySize": 512,
+            "executionTime": 1400,
+            "pricePerInvocation": 0.0000006
+        },
+        {
+            "region": "US West",
+            "memorySize": 1024,
+            "executionTime": 2000,
+            "pricePerInvocation": 0.0000008
+        },
+        {
+            "region": "EU West",
+            "memorySize": 2048,
+            "executionTime": 2600,
+            "pricePerInvocation": 0.0000010
+        },
+        {
+            "region": "Asia Pacific",
+            "memorySize": 4096,
+            "executionTime": 3200,
+            "pricePerInvocation": 0.0000012
+        },
+        {
+            "region": "Canada",
+            "memorySize": 8192,
+            "executionTime": 3800,
+            "pricePerInvocation": 0.0000014
+        },
+        {
+            "region": "US East",
+            "memorySize": 256,
+            "executionTime": 1100,
+            "pricePerInvocation": 0.00000045
+        },
+        {
+            "region": "US West",
+            "memorySize": 512,
+            "executionTime": 1700,
+            "pricePerInvocation": 0.0000007
+        },
+        {
+            "region": "EU West",
+            "memorySize": 1024,
+            "executionTime": 2300,
+            "pricePerInvocation": 0.00000095
+        },
+        {
+            "region": "Asia Pacific",
+            "memorySize": 2048,
+            "executionTime": 2900,
+            "pricePerInvocation": 0.0000012
+        },
+        {
+            "region": "Canada",
+            "memorySize": 4096,
+            "executionTime": 3500,
+            "pricePerInvocation": 0.0000015
+        },
+        {
+            "region": "US East",
+            "memorySize": 512,
+            "executionTime": 1300,
+            "pricePerInvocation": 0.00000055
+        },
+        {
+            "region": "US West",
+            "memorySize": 1024,
+            "executionTime": 1900,
+            "pricePerInvocation": 0.00000075
+        },
+        {
+            "region": "EU West",
+            "memorySize": 2048,
+            "executionTime": 2500,
+            "pricePerInvocation": 0.000001
+        }, {
+            "region": "Asia Pacific",
+            "memorySize": 4096,
+            "executionTime": 3100,
+            "pricePerInvocation": 0.0000013
+        },
+        {
+            "region": "Canada",
+            "memorySize": 8192,
+            "executionTime": 3700,
+            "pricePerInvocation": 0.0000016
+        },
+        {
+            "region": "US East",
+            "memorySize": 1024,
+            "executionTime": 1500,
+            "pricePerInvocation": 0.0000006
+        },
+        {
+            "region": "US West",
+            "memorySize": 2048,
+            "executionTime": 2100,
+            "pricePerInvocation": 0.00000085
+        },
+        {
+            "region": "EU West",
+            "memorySize": 4096,
+            "executionTime": 2700,
+            "pricePerInvocation": 0.0000011
+        },
+        {
+            "region": "Asia Pacific",
+            "memorySize": 8192,
+            "executionTime": 3300,
+            "pricePerInvocation": 0.0000014
+        },
+        {
+            "region": "Canada",
+            "memorySize": 16384,
+            "executionTime": 3900,
+            "pricePerInvocation": 0.0000017
+        }
+    ],
+    "AWSRDS": [
+        {
+            "region": "US East",
+            "databaseEngine": "MySQL",
+            "instanceClass": "db.t2.micro",
+            "storageSize": 20,
+            "hourlyPrice": 0.02
+        },
+        {
+            "region": "US West",
+            "databaseEngine": "PostgreSQL",
+            "instanceClass": "db.m4.large",
+            "storageSize": 100,
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "EU West",
+            "databaseEngine": "Oracle",
+            "instanceClass": "db.r4.xlarge",
+            "storageSize": 200,
+            "hourlyPrice": 0.2
+        },
+        {
+            "region": "Asia Pacific",
+            "databaseEngine": "SQL Server",
+            "instanceClass": "db.m5.large",
+            "storageSize": 50,
+            "hourlyPrice": 0.15
+        },
+        {
+            "region": "Canada",
+            "databaseEngine": "MariaDB",
+            "instanceClass": "db.t2.small",
+            "storageSize": 40,
+            "hourlyPrice": 0.04
+        },
+        {
+            "region": "US East",
+            "databaseEngine": "MySQL",
+            "instanceClass": "db.t2.small",
+            "storageSize": 40,
+            "hourlyPrice": 0.04
+        },
+        {
+            "region": "US West",
+            "databaseEngine": "PostgreSQL",
+            "instanceClass": "db.m5.large",
+            "storageSize": 80,
+            "hourlyPrice": 0.08
+        },
+        {
+            "region": "EU West",
+            "databaseEngine": "Oracle",
+            "instanceClass": "db.r5.xlarge",
+            "storageSize": 160,
+            "hourlyPrice": 0.16
+        },
+        {
+            "region": "Asia Pacific",
+            "databaseEngine": "SQL Server",
+            "instanceClass": "db.m4.large",
+            "storageSize": 100,
+            "hourlyPrice": 0.1
+        },
+        {
+            "region": "Canada",
+            "databaseEngine": "MariaDB",
+            "instanceClass": "db.t2.micro",
+            "storageSize": 60,
+            "hourlyPrice": 0.06
+        },
+        {
+            "region": "US East",
+            "databaseEngine": "MySQL",
+            "instanceClass": "db.t2.medium",
+            "storageSize": 60,
+            "hourlyPrice": 0.06
+        },{
+            "region": "US West",
+            "databaseEngine": "PostgreSQL",
+            "instanceClass": "db.m5.xlarge",
+            "storageSize": 120,
+            "hourlyPrice": 0.12
+        },
+        {
+            "region": "EU West",
+            "databaseEngine": "Oracle",
+            "instanceClass": "db.r5.2xlarge",
+            "storageSize": 240,
+            "hourlyPrice": 0.24
+        },
+        {
+            "region": "Asia Pacific",
+            "databaseEngine": "SQL Server",
+            "instanceClass": "db.m4.xlarge",
+            "storageSize": 150,
+            "hourlyPrice": 0.15
+        }, {
+            "region": "Canada",
+            "databaseEngine": "MariaDB",
+            "instanceClass": "db.t2.large",
+            "storageSize": 80,
+            "hourlyPrice": 0.08
+        },
+        {
+            "region": "US East",
+            "databaseEngine": "MySQL",
+            "instanceClass": "db.t2.xlarge",
+            "storageSize": 80,
+            "hourlyPrice": 0.08
+        },
+        {
+            "region": "US West",
+            "databaseEngine": "PostgreSQL",
+            "instanceClass": "db.m5.2xlarge",
+            "storageSize": 160,
+            "hourlyPrice": 0.16
+        },{
+            "region": "EU West",
+            "databaseEngine": "Oracle",
+            "instanceClass": "db.r5.4xlarge",
+            "storageSize": 320,
+            "hourlyPrice": 0.32
+        },
+        {
+            "region": "Asia Pacific",
+            "databaseEngine": "SQL Server",
+            "instanceClass": "db.m4.2xlarge",
+            "storageSize": 200,
+            "hourlyPrice": 0.2
+        },
+        {
+            "region": "Canada",
+            "databaseEngine": "MariaDB",
+            "instanceClass": "db.t2.2xlarge",
+            "storageSize": 100,
+            "hourlyPrice": 0.1
+        }
+    ],
+    "AWSS3": [
+        {
+            "region": "US East",
+            "storageSizeGB": 100,
+            "dataTransferInGB": 500,
+            "dataTransferOutGB": 1000,
+            "requests": 1000000,
+            "monthlyPrice": 5.0
+        },
+        {
+            "region": "US West",
+            "storageSizeGB": 200,
+            "dataTransferInGB": 1000,
+            "dataTransferOutGB": 2000,
+            "requests": 2000000,
+            "monthlyPrice": 10.0
+        },
+        {
+            "region": "EU West",
+            "storageSizeGB": 300,
+            "dataTransferInGB": 1500,
+            "dataTransferOutGB": 3000,
+            "requests": 3000000,
+            "monthlyPrice": 15.0
+        },
+        {
+            "region": "Asia Pacific",
+            "storageSizeGB": 400,
+            "dataTransferInGB": 2000,
+            "dataTransferOutGB": 4000,
+            "requests": 4000000,
+            "monthlyPrice": 20.0
+        },
+        {
+            "region": "Canada",
+            "storageSizeGB": 500,
+            "dataTransferInGB": 2500,
+            "dataTransferOutGB": 5000,
+            "requests": 5000000,
+            "monthlyPrice": 25.0
+        },
+        {
+            "region": "US East",
+            "storageSizeGB": 50,
+            "dataTransferInGB": 250,
+            "dataTransferOutGB": 500,
+            "requests": 500000,
+            "monthlyPrice": 2.5
+        },
+        {
+            "region": "US West",
+            "storageSizeGB": 60,
+            "dataTransferInGB": 300,
+            "dataTransferOutGB": 600,
+            "requests": 600000,
+            "monthlyPrice": 3.0
+        },
+        {
+            "region": "EU West",
+            "storageSizeGB": 70,
+            "dataTransferInGB": 350,
+            "dataTransferOutGB": 700,
+            "requests": 700000,
+            "monthlyPrice": 3.5
+        },{
+            "region": "Asia Pacific",
+            "storageSizeGB": 80,
+            "dataTransferInGB": 400,
+            "dataTransferOutGB": 800,
+            "requests": 800000,
+            "monthlyPrice": 4.0
+        },
+        {
+            "region": "Canada",
+            "storageSizeGB": 90,
+            "dataTransferInGB": 450,
+            "dataTransferOutGB": 900,
+            "requests": 900000,
+            "monthlyPrice": 4.5
+        },
+        {
+            "region": "US East",
+            "storageSizeGB": 100,
+            "dataTransferInGB": 500,
+            "dataTransferOutGB": 1000,
+            "requests": 1000000,
+            "monthlyPrice": 5.0
+        },{
+            "region": "US West",
+            "storageSizeGB": 110,
+            "dataTransferInGB": 550,
+            "dataTransferOutGB": 1100,
+            "requests": 1100000,
+            "monthlyPrice": 5.5
+        },
+        {
+            "region": "EU West",
+            "storageSizeGB": 120,
+            "dataTransferInGB": 600,
+            "dataTransferOutGB": 1200,
+            "requests": 1200000,
+            "monthlyPrice": 6.0
+        },
+        {
+            "region": "Asia Pacific",
+            "storageSizeGB": 130,
+            "dataTransferInGB": 650,
+            "dataTransferOutGB": 1300,
+            "requests": 1300000,
+            "monthlyPrice": 6.5
+        }, {
+            "region": "Canada",
+            "storageSizeGB": 140,
+            "dataTransferInGB": 700,
+            "dataTransferOutGB": 1400,
+            "requests": 1400000,
+            "monthlyPrice": 7.0
+        },
+        {
+            "region": "US East",
+            "storageSizeGB": 150,
+            "dataTransferInGB": 750,
+            "dataTransferOutGB": 1500,
+            "requests": 1500000,
+            "monthlyPrice": 7.5
+        },
+        {
+            "region": "US West",
+            "storageSizeGB": 160,
+            "dataTransferInGB": 800,
+            "dataTransferOutGB": 1600,
+            "requests": 1600000,
+            "monthlyPrice": 8.0
+        }, {
+            "region": "EU West",
+            "storageSizeGB": 170,
+            "dataTransferInGB": 850,
+            "dataTransferOutGB": 1700,
+            "requests": 1700000,
+            "monthlyPrice": 8.5
+        },
+        {
+            "region": "Asia Pacific",
+            "storageSizeGB": 180,
+            "dataTransferInGB": 900,
+            "dataTransferOutGB": 1800,
+            "requests": 1800000,
+            "monthlyPrice": 9.0
+        },
+        {
+            "region": "Canada",
+            "storageSizeGB": 190,
+            "dataTransferInGB": 950,
+            "dataTransferOutGB": 1900,
+            "requests": 1900000,
+            "monthlyPrice": 9.5
+        },
+        {
+            "region": "US East",
+            "storageSizeGB": 200,
+            "dataTransferInGB": 1000,
+            "dataTransferOutGB": 2000,
+            "requests": 2000000,
+            "monthlyPrice": 10.0
+        },
+        {
+            "region": "US West",
+            "storageSizeGB": 220,
+            "dataTransferInGB": 1100,
+            "dataTransferOutGB": 2200,
+            "requests": 2200000,
+            "monthlyPrice": 11.0
+        },
+        {
+            "region": "EU West",
+            "storageSizeGB": 240,
+            "dataTransferInGB": 1200,
+            "dataTransferOutGB": 2400,
+            "requests": 2400000,
+            "monthlyPrice": 12.0
+        },
+        {
+            "region": "Asia Pacific",
+            "storageSizeGB": 260,
+            "dataTransferInGB": 1300,
+            "dataTransferOutGB": 2600,
+            "requests": 2600000,
+            "monthlyPrice": 13.0
+        },
+        {
+            "region": "Canada",
+            "storageSizeGB": 280,
+            "dataTransferInGB": 1400,
+            "dataTransferOutGB": 2800,
+            "requests": 2800000,
+            "monthlyPrice": 14.0
+        },
+        {
+            "region": "US East",
+            "storageSizeGB": 300,
+            "dataTransferInGB": 1500,
+            "dataTransferOutGB": 3000,
+            "requests": 3000000,
+            "monthlyPrice": 15.0
+        }, {
+            "region": "US West",
+            "storageSizeGB": 320,
+            "dataTransferInGB": 1600,
+            "dataTransferOutGB": 3200,
+            "requests": 3200000,
+            "monthlyPrice": 16.0
+        },
+        {
+            "region": "EU West",
+            "storageSizeGB": 340,
+            "dataTransferInGB": 1700,
+            "dataTransferOutGB": 3400,
+            "requests": 3400000,
+            "monthlyPrice": 17.0
+        },
+        {
+            "region": "Asia Pacific",
+            "storageSizeGB": 360,
+            "dataTransferInGB": 1800,
+            "dataTransferOutGB": 3600,
+            "requests": 3600000,
+            "monthlyPrice": 18.0
+        }, {
+            "region": "Canada",
+            "storageSizeGB": 380,
+            "dataTransferInGB": 1900,
+            "dataTransferOutGB": 3800,
+            "requests": 3800000,
+            "monthlyPrice": 19.0
+        },
+        {
+            "region": "US East",
+            "storageSizeGB": 400,
+            "dataTransferInGB": 2000,
+            "dataTransferOutGB": 4000,
+            "requests": 4000000,
+            "monthlyPrice": 20.0
+        },
+        {
+            "region": "US West",
+            "storageSizeGB": 420,
+            "dataTransferInGB": 2100,
+            "dataTransferOutGB": 4200,
+            "requests": 4200000,
+            "monthlyPrice": 21.0
+        }, {
+            "region": "EU West",
+            "storageSizeGB": 440,
+            "dataTransferInGB": 2200,
+            "dataTransferOutGB": 4400,
+            "requests": 4400000,
+            "monthlyPrice": 22.0
+        },
+        {
+            "region": "Asia Pacific",
+            "storageSizeGB": 460,
+            "dataTransferInGB": 2300,
+            "dataTransferOutGB": 4600,
+            "requests": 4600000,
+            "monthlyPrice": 23.0
+        },
+        {
+            "region": "Canada",
+            "storageSizeGB": 480,
+            "dataTransferInGB": 2400,
+            "dataTransferOutGB": 4800,
+            "requests": 4800000,
+            "monthlyPrice": 24.0
+        }
+    ],
+    "AWSVPC": [
+        {
+            "vpcName": "my-vpc-1",
+            "region": "US East",
+            "cidrBlock": "10.0.0.0/16",
+            "subnetCount": 4,
+            "securityGroups": 5,
+            "monthlyPrice": 100.0
+        },
+        {
+            "vpcName": "my-vpc-2",
+            "region": "US West",
+            "cidrBlock": "10.1.0.0/16",
+            "subnetCount": 6,
+            "securityGroups": 7,
+            "monthlyPrice": 120.0
+        },
+        {
+            "vpcName": "my-vpc-3",
+            "region": "EU West",
+            "cidrBlock": "10.2.0.0/16",
+            "subnetCount": 8,
+            "securityGroups": 9,
+            "monthlyPrice": 140.0
+        },
+        {
+            "vpcName": "my-vpc-4",
+            "region": "Asia Pacific",
+            "cidrBlock": "10.3.0.0/16",
+            "subnetCount": 10,
+            "securityGroups": 11,
+            "monthlyPrice": 160.0
+        },
+        {
+            "vpcName": "my-vpc-5",
+            "region": "Canada",
+            "cidrBlock": "10.4.0.0/16",
+            "subnetCount": 12,
+            "securityGroups": 13,
+            "monthlyPrice": 180.0
+        },
+        {
+            "vpcName": "my-vpc-6",
+            "region": "US East",
+            "cidrBlock": "10.5.0.0/16",
+            "subnetCount": 14,
+            "securityGroups": 15,
+            "monthlyPrice": 200.0
+        },
+        {
+            "vpcName": "my-vpc-7",
+            "region": "US West",
+            "cidrBlock": "10.6.0.0/16",
+            "subnetCount": 16,
+            "securityGroups": 17,
+            "monthlyPrice": 220.0
+        },
+        {
+            "vpcName": "my-vpc-8",
+            "region": "EU West",
+            "cidrBlock": "10.7.0.0/16",
+            "subnetCount": 18,
+            "securityGroups": 19,
+            "monthlyPrice": 240.0
+        },
+        {
+            "vpcName": "my-vpc-9",
+            "region": "Asia Pacific",
+            "cidrBlock": "10.8.0.0/16",
+            "subnetCount": 20,
+            "securityGroups": 21,
+            "monthlyPrice": 260.0
+        },
+        {
+            "vpcName": "my-vpc-10",
+            "region": "Canada",
+            "cidrBlock": "10.9.0.0/16",
+            "subnetCount": 22,
+            "securityGroups": 23,
+            "monthlyPrice": 280.0
+        }, {
+            "vpcName": "my-vpc-11",
+            "region": "US East",
+            "cidrBlock": "10.10.0.0/16",
+            "subnetCount": 24,
+            "securityGroups": 25,
+            "monthlyPrice": 300.0
+        },
+        {
+            "vpcName": "my-vpc-12",
+            "region": "US West",
+            "cidrBlock": "10.11.0.0/16",
+            "subnetCount": 26,
+            "securityGroups": 27,
+            "monthlyPrice": 320.0
+        },
+        {
+            "vpcName": "my-vpc-13",
+            "region": "EU West",
+            "cidrBlock": "10.12.0.0/16",
+            "subnetCount": 28,
+            "securityGroups": 29,
+            "monthlyPrice": 340.0
+        }, {
+            "vpcName": "my-vpc-14",
+            "region": "Asia Pacific",
+            "cidrBlock": "10.13.0.0/16",
+            "subnetCount": 30,
+            "securityGroups": 31,
+            "monthlyPrice": 360.0
+        },
+        {
+            "vpcName": "my-vpc-15",
+            "region": "Canada",
+            "cidrBlock": "10.14.0.0/16",
+            "subnetCount": 32,
+            "securityGroups": 33,
+            "monthlyPrice": 380.0
+        },
+        {
+            "vpcName": "my-vpc-16",
+            "region": "US East",
+            "cidrBlock": "10.15.0.0/16",
+            "subnetCount": 34,
+            "securityGroups": 35,
+            "monthlyPrice": 400.0
+        }, {
+            "vpcName": "my-vpc-17",
+            "region": "US West",
+            "cidrBlock": "10.16.0.0/16",
+            "subnetCount": 36,
+            "securityGroups": 37,
+            "monthlyPrice": 420.0
+        },
+        {
+            "vpcName": "my-vpc-18",
+            "region": "EU West",
+            "cidrBlock": "10.17.0.0/16",
+            "subnetCount": 38,
+            "securityGroups": 39,
+            "monthlyPrice": 440.0
+        },
+        {
+            "vpcName": "my-vpc-19",
+            "region": "Asia Pacific",
+            "cidrBlock": "10.18.0.0/16",
+            "subnetCount": 40,
+            "securityGroups": 41,
+            "monthlyPrice": 460.0
+        },{
+            "vpcName": "my-vpc-20",
+            "region": "Canada",
+            "cidrBlock": "10.19.0.0/16",
+            "subnetCount": 42,
+            "securityGroups": 43,
+            "monthlyPrice": 480.0
+        },
+        {
+            "vpcName": "my-vpc-21",
+            "region": "US East",
+            "cidrBlock": "10.20.0.0/16",
+            "subnetCount": 44,
+            "securityGroups": 45,
+            "monthlyPrice": 500.0
+        },
+        {
+            "vpcName": "my-vpc-22",
+            "region": "US West",
+            "cidrBlock": "10.21.0.0/16",
+            "subnetCount": 46,
+            "securityGroups": 47,
+            "monthlyPrice": 520.0
+        },
+        {
+            "vpcName": "my-vpc-23",
+            "region": "EU West",
+            "cidrBlock": "10.22.0.0/16",
+            "subnetCount": 48,
+            "securityGroups": 49,
+            "monthlyPrice": 540.0
+        }, {
+            "vpcName": "my-vpc-24",
+            "region": "Asia Pacific",
+            "cidrBlock": "10.23.0.0/16",
+            "subnetCount": 50,
+            "securityGroups": 51,
+            "monthlyPrice": 560.0
+        },
+        {
+            "vpcName": "my-vpc-25",
+            "region": "Canada",
+            "cidrBlock": "10.24.0.0/16",
+            "subnetCount": 52,
+            "securityGroups": 53,
+            "monthlyPrice": 580.0
+        },{
+            "vpcName": "my-vpc-26",
+            "region": "US East",
+            "cidrBlock": "10.25.0.0/16",
+            "subnetCount": 54,
+            "securityGroups": 55,
+            "monthlyPrice": 600.0
+        },
+        {
+            "vpcName": "my-vpc-27",
+            "region": "US West",
+            "cidrBlock": "10.26.0.0/16",
+            "subnetCount": 56,
+            "securityGroups": 57,
+            "monthlyPrice": 620.0
+        }, {
+            "vpcName": "my-vpc-28",
+            "region": "EU West",
+            "cidrBlock": "10.27.0.0/16",
+            "subnetCount": 58,
+            "securityGroups": 59,
+            "monthlyPrice": 640.0
+        },
+        {
+            "vpcName": "my-vpc-29",
+            "region": "Asia Pacific",
+            "cidrBlock": "10.28.0.0/16",
+            "subnetCount": 60,
+            "securityGroups": 61,
+            "monthlyPrice": 660.0
+        },{
+            "vpcName": "my-vpc-30",
+            "region": "Canada",
+            "cidrBlock": "10.29.0.0/16",
+            "subnetCount": 62,
+            "securityGroups": 63,
+            "monthlyPrice": 680.0
+        },
+        {
+            "vpcName": "my-vpc-31",
+            "region": "US East",
+            "cidrBlock": "10.30.0.0/16",
+            "subnetCount": 64,
+            "securityGroups": 65,
+            "monthlyPrice": 700.0
+        },
+        {
+            "vpcName": "my-vpc-32",
+            "region": "US West",
+            "cidrBlock": "10.31.0.0/16",
+            "subnetCount": 66,
+            "securityGroups": 67,
+            "monthlyPrice": 720.0
+        },
+        {
+            "vpcName": "my-vpc-33",
+            "region": "EU West",
+            "cidrBlock": "10.32.0.0/16",
+            "subnetCount": 68,
+            "securityGroups": 69,
+            "monthlyPrice": 740.0
+        },
+        {
+            "vpcName": "my-vpc-34",
+            "region": "Asia Pacific",
+            "cidrBlock": "10.33.0.0/16",
+            "subnetCount": 70,
+            "securityGroups": 71,
+            "monthlyPrice": 760.0
+        }, 
+        {
+            "vpcName": "my-vpc-35",
+            "region": "Canada",
+            "cidrBlock": "10.34.0.0/16",
+            "subnetCount": 72,
+            "securityGroups": 73,
+            "monthlyPrice": 780.0
+        }
+
+    ],
+    "LoadBalancer": [
+       
+        {
+            "region": "East US",
+            "hourlyPrice": 0.08
+        },
+        {
+            "region": "West Europe",
+            "hourlyPrice": 0.09
+        }
+       ]
+}

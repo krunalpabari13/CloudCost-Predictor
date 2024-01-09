@@ -80,58 +80,31 @@ const LoginPage = () => {
   const handleMouseDownPassword = event => {
     event.preventDefault()
   }
-
-  const submit=(e)=>{
-    e.preventDefault();
-    let email="krunal123@gmail.com"
-    let phone="7201034608"
-    let password="krunal"
-    let user="krunal"
-    let data={
-      "email":email,
-      "phone":phone,
-      "password":password,
-      "name":user
-    }
-   let jsondata=JSON.stringify(data)
-
-    fetch("http://localhost:8000/sign",{
-      method:'POST',
-      headers:{
-        "Content-Type":"application/json"
-      },
-      body:jsondata
-    }).then((res)=>{console.log("success")}).catch((err)=>console.log(err))
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
+  const submit = () => {
+    const data = {
+      email: values.email,
+      password: values.password,
+    };
+
+    fetch('http://localhost:8000/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => {
+        if (response.ok) {
+          router.push('/dashboard');
+        } else {
+          console.error('Request failed');
+        }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  };
 
   return (
     <Box className='content-center'>

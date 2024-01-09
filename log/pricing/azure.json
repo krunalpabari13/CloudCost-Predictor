@@ -1,4 +1,4 @@
-{
+[{
     "VirtualMachine": [
         {
             "region": "East US",
@@ -705,7 +705,7 @@
         }
     ],
 	
-    "CosmosDB": [
+    "database": [
         {
             "region": "East US",
             "databaseEngine": "Core (SQL)",
@@ -1239,4 +1239,4 @@
         }
     ]
 		
-}
+}]

@@ -11,9 +11,10 @@ def selected(request):
     if request.method=='POST':
         data=request.body.decode('utf-8');
         jsondata=json.loads(data)
-        
-        extract.extract(jsondata);
-    return render(request,'index.html')
+        print(jsondata)
+        data=extract.extract(jsondata);
+        print(data)
+        return JsonResponse(data)
 
 @csrf_exempt
 def login(request):
